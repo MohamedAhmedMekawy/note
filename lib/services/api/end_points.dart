@@ -1,0 +1,61 @@
+class EndPoints {
+  static const String baseUrl = 'https://elance-app.com/api/';
+  static const String imageBaseUrl = 'https://elance-app.com/api/uploads';
+
+//************** auth ************ */
+
+  static const String register = 'auth/register';
+  static const String login = 'auth/login';
+  static const String privacy = 'policy';
+  static const String aboutUs = 'about';
+  static const String terms = 'terms';
+  static const String city = 'city';
+  static const String category = 'category';
+  static const String experienceLevel = 'experience-level';
+  static const String profile = 'profile';
+  static const String profilePortfolio = '/profile/portfolio';
+  static const String portfolioTeam = 'team/portfolio';
+  static const String task = 'task';
+  static const String date = 'date';
+  static const String oTPVerify = 'profile/phone/verify';
+  static const String resendVerify = 'profile/phone/resend';
+  static const String getHelp = 'help';
+  static const String changePassword = '/profile/password/change';
+  static const String forgetPasswordVerify = 'auth/password/verify';
+  static const String forgetPasswordResend = 'auth/password/resend';
+  static const String forgetPasswordNew = 'auth/password/new';
+  static const String forgetPasswordsendOTP = 'auth/password/reset';
+  static const String profileNotification = 'profile/notification';
+  static const String profileEducation = 'profile/education';
+  static const String logout = 'logout';
+  static const String me = 'me';
+  static const String serviceField = 'profile/serviceField';
+  static const String service = 'service';
+  static const String skills = 'skill';
+  static const String vacancy = 'vacancy';
+  static const String freelancer = 'freelancer';
+  static const String favourite = 'favourite';
+  static const String home = 'home';
+  static const String homeFreelancer = '/home/freelancer';
+  static const String offer = 'offer';
+  static const String notification = 'notification';
+  static const String current = 'current';
+  static const String order = 'order';
+  static const String previous = 'previous';
+  static const String request = 'request';
+  static const String join = 'join';
+  static const String accept = 'accept';
+  static const String reject = 'reject';
+  static const String payment = 'payment';
+  static const String review = 'review';
+  static const String applications = 'applications';
+  static const String freelancers = 'freelancers';
+  static const String applied = 'applied';
+  static const String recommended = 'recommended';
+  static String price = 'price';
+  static String ads = 'ads';
+  static String team = 'team';
+  static String portfolio = 'portfolio';
+  static String leave = 'leave';
+  static String preferences='preferences';
+}
